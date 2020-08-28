@@ -1,2 +1,5 @@
 # Covid-19-Data_Visualiser
-Python script to grab the coronavirus data of different countries.
+A small python script to grab the Covid-19 data of various countries and plot it on a bar graph for comparison.
+
+Source: https://www.worldometers.info/coronavirus
+
