@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 
 
 res=requests.get('https://www.worldometers.info/coronavirus/')
-soup=bs4.BeautifulSoup(res.text, "lxml")          #creating the beautifulsoup object
+soup=bs4.BeautifulSoup(res.text, "lxml")          #creating the beautiful beautiful soup object
 elem=soup.select('tr')                            #selecting all the row elements in the main countries table from the site
 countries=[]                                      #list for storing the country names
 
