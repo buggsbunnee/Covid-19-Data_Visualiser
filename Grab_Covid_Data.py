@@ -4,9 +4,9 @@ from matplotlib import pyplot as plt
 
 
 res=requests.get('https://www.worldometers.info/coronavirus/')
-soup=bs4.BeautifulSoup(res.text, "lxml")          #creating the beautiful soup object
+soup=bs4.BeautifulSoup(res.text, "lxml")          #creating the beautifulsoup object
 elem=soup.select('tr')                            #selecting all the row elements in the main countries table from the site
-countries=[]                                      #list to store the country names
+countries=[]                                      #list for storing the country names
 
 cases=[]                                          #list to store the total cases for each country
 
